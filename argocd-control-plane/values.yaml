@@ -1,0 +1,9 @@
+# Minimal dedicated values for argocd-control-plane
+cluster:
+  name: argocd-control-plane
+  project: mq-usecase-1
+  network: network1
+  role: control-plane
+istio:
+  meshID: ambient-mesh-vpc1
+  trustDomain: mq-usecase-1.local
